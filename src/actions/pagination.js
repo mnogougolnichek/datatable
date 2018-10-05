@@ -7,6 +7,11 @@ export const setPagination = (len, rowsQuantity) => dispatch =>{
     }
 
     let quantity = Math.ceil(len/rowsQuantity),
-        buttons = Array.from({length: quantity},(v, i) => i);
+        buttons = [];
+
+    for(let i=0;i<quantity;i++){
+        buttons.push(i);
+        console.log(buttons);
+    }
     dispatch({type: 'SET_PAGINATION', payload: buttons});
 };

@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://mnogougolnichek.github.io/datatable",
-
   "dependencies": {
     "bootstrap": "^4.1.3",
     "react": "^16.4.2",
