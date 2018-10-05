@@ -1,7 +1,7 @@
 import {setPagination} from "./pagination";
 
 export const getGoods = () => dispatch =>{
-    fetch('http://localhost:3000/data.json')
+    fetch('https://mnogougolnichek.github.io/datatable/data.json')
         .then(response => {
             return response.json();
         })
